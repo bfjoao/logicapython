@@ -1,0 +1,5 @@
+p = input('Qual produto você deseja? ')
+preço = float(input('Qual o preço dele? R$ '))
+desconto = preço - (preço * 5/100)
+print(f'Seu produto custa R${preço}')
+print(f'Com nosso desconto de 5% vai sair por R${desconto:.2f}')
